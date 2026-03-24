@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": "1774321135933",
+      "name": "Aakash",
+      "email": "as6515@srmist.edu.in",
+      "password": "$2b$10$0LGxYCpGypZQ.WTlxXWNieyaWeb1FLwBuB1cpP7gsc5R.FuAqK2TC",
+      "role": "user"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "name": "Tesla Model S",
+      "type": "Electric",
+      "price": 150,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&q=80&w=800",
+      "description": "Luxury electric sedan with autopilot.",
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    {
+      "id": "2",
+      "name": "BMW M4",
+      "type": "Sports",
+      "price": 120,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=800",
+      "description": "High-performance sports coupe.",
+      "lat": 37.7833,
+      "lng": -122.4167
+    },
+    {
+      "id": "3",
+      "name": "Range Rover Sport",
+      "type": "SUV",
+      "price": 180,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1541443131876-44b03de101c5?auto=format&fit=crop&q=80&w=800",
+      "description": "Luxury SUV with off-road capability.",
+      "lat": 37.7510,
+      "lng": -122.4476
+    },
+    {
+      "id": "4",
+      "name": "Porsche 911",
+      "type": "Sports",
+      "price": 250,
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=800",
+      "description": "Iconic sports car with precision handling.",
+      "lat": 37.7900,
+      "lng": -122.4000
+    },
+    {
+      "id": "5",
+      "name": "Audi Q8",
+      "type": "SUV",
+      "price": 160,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800",
+      "description": "Modern luxury SUV with advanced tech.",
+      "lat": 37.7600,
+      "lng": -122.4300
+    },
+    {
+      "id": "6",
+      "name": "Mercedes S-Class",
+      "type": "Luxury",
+      "price": 200,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80&w=800",
+      "description": "The pinnacle of luxury sedans.",
+      "lat": 37.7700,
+      "lng": -122.4500
+    }
+  ],
+  "bookings": []
+}

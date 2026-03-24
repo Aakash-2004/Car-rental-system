@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Google AI Studio App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (function() {
+        // Vite replaces %VAR% at build time. If not set, it might remain as the placeholder.
+        const key = "%VITE_GOOGLE_MAPS_API_KEY%";
+        const isPlaceholder = key === "%" + "VITE_GOOGLE_MAPS_API_KEY" + "%" || key === "";
+        
+        if (!isPlaceholder) {
+          window.initMap = function() {
+            console.log('Google Maps API loaded successfully');
+          };
+          const script = document.createElement('script');
+          script.src = `https://maps.googleapis.com/maps/api/js?key=${key}&callback=initMap`;
+          script.async = true;
+          script.defer = true;
+          document.head.appendChild(script);
+        } else {
+          console.warn('Google Maps API key is missing. Map will not be loaded.');
+          window.initMap = function() {
+            console.log('Google Maps placeholder callback');
+          };
+        }
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
